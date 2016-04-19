@@ -5,10 +5,10 @@
 -- Version : 0.1   --
 ---------------------
 
-function ban(ply)
+function mapexban(ply)
 
-	ULib.ban(ply, 300, "Cheat", "smotritel")
+	ULib.ban(ply, 300, "Cheat mApex", "smotritel")
 
 end
 
-hook.Add("Ban",'ban',ban)
+hook.Add("Ban",'mapexban',mapexban)
