@@ -7,13 +7,23 @@
 
 if SERVER then
 
+	-- BASE --
+
 	AddCSLuaFile("lua/base/sv_ban.lua")
 
 end
 
 if CLIENT then
 
-	AddCSLuaFile("lua/mpgh/cl_detectcommand.lua")
+	-- CHEATS --
+
+	-- mApex
+	AddCSLuaFile("lua/mpgh/cl_mapexcommand.lua")
+
+
+	-- BASE --
+
+	AddCSLuaFile("lua/base/cl_analyse.lua")
 
 end
 
