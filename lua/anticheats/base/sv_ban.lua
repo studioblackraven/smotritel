@@ -11,4 +11,12 @@ function mapexban(ply)
 
 end
 
-hook.Add("Ban",'mapexban',mapexban)
+hook.Add("BanmApex",'mapexban',mapexban)
+
+function cyanredban(ply)
+
+	ULib.ban(ply, 300, "Cheat Cyan Red", "smotritel")
+
+end
+
+hook.Add("BanCyanRed",'cyanredban',cyanredban)
